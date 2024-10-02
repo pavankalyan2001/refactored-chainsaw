@@ -21,4 +21,4 @@ jobs:
             - name: Generate Release and Update Changelog
               run: npx semantic-release
               env:
-                GITHUB_TOKEN: ${{ secrets.WRITE_TOKEN }}
+                GITHUB_TOKEN: ${{ secrets.WRITE_SECRET_TOKEN }}
